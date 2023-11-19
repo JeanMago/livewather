@@ -1,0 +1,66 @@
+{"dadostotal":
+ [
+    {"adr": true,  
+      "confirmed": false, 
+      "data": "OgDWco4DBA8J5AcNAB4Le1sAAAAAAAABe/s=", 
+      "deduplicationId": "7c8716f6-761a-4c29-8970-485d116149fb", 
+      "devAddr": "07290897", 
+      "deviceInfo": {
+         "applicationId": "1e5d30da-a51f-4de6-aaf2-0f733a17ddcf", 
+         "applicationName": "Esta\u00e7\u00f5es Meteorol\u00f3gicas",
+         "devEui": "f80332010002c88b",
+         "deviceName": "Esta\u00e7\u00e3o Cruzeiro", 
+         "deviceProfileId": "c248c305-cbe7-4a0c-a04f-f4d03f92373a",
+         "deviceProfileName": "Esta\u00e7\u00f5es Metereologicas NIT2xLI", 
+         "tags": {}, 
+         "tenantId": "8a9c099e-efd2-406d-bb56-d1a399f932ba",
+         "tenantName": "Santa Rosa"
+            },
+      "dr": 5, 
+      "fCnt": 242, 
+      "fPort": 4, 
+      "id": "f80332010002c88b",
+      "object": {
+        "device": [
+            {
+                "n": "model",
+                "u": "string", 
+                "v": "NIT21L"},
+            {"n": "power", "u": "string", "v": "external"}
+            ],
+     "drys": [], 
+     "internal_sensors": [
+        {
+            "n": "temperature", "u": "C", "v": "20.83"}, {"n": "humidity", "u": "%", "v": "91.00"
+            }
+        ],
+     "lorawan": [], 
+     "modules": 
+     [
+        {
+        "n": "emw_rain_lvl",
+        "u": "mm", "v": "253.2"
+        }, 
+        {
+            "n": "emw_avg_wind_speed", 
+            "u": "km/h", "v": "7"
+        }, 
+        {"n": "emw_gust_wind_speed", "u": "km/h", "v": "13"},
+        {"n": "emw_wind_direction", "u": "graus", "v": "30"},
+        {"n": "emw_temperature", "u": "C", "v": "20.8"},
+        {"n": "emw_humidity", "u": "%", "v": "91"}, 
+        {"n": "emw_luminosity", "u": "lx", "v": 0}, 
+        {"n": "emw_uv", "u": "/", "v": "0.0"}, 
+        {"n": "emw_solar_radiation", "u": "W/m\u00b2", "v": "0.0"},
+        {"n": "emw_atm_pres", "u": "hPa\u00b2", "v": "972.8"}
+          
+          ], "probes": []}, "rxInfo": [{"channel": 4, "context": "DFmMKw==", "crcStatus": "CRC_OK", "gatewayId": "ac1f09fffe06fcd7", "location": {"altitude": 342, "latitude": -27.86083, "longitude": -54.44596}, "metadata": {"region_common_name": "AU915", "region_config_id": "au915_0"}, "rfChain": 1, "rssi": 2, "snr": 0.3, "time": "2023-11-10T00:41:20.055345+00:00", "timeSinceGpsEpoch": "1383612098.055s", "uplinkId": 48143}, {"channel": 4, "context": "7hrUOw==", "crcStatus": "CRC_OK", "gatewayId": "ac1f09fffe06fcc6", "location": {"altitude": 324, "latitude": -27.85245, "longitude": -54.49181}, "metadata": {"region_common_name": "AU915", "region_config_id": "au915_0"}, "rfChain": 1, "rssi": -112, "snr": 0.5, "time": "2023-11-10T00:41:20.055361+00:00", "timeSinceGpsEpoch": "1383612098.055s", "uplinkId": 37716}], "time": "2023-11-10T00:41:20.055+00:00", "txInfo": {"frequency": 916000000, "modulation": {"lora": {"bandwidth": 125000, "codeRate": "CR_4_5", "spreadingFactor": 7}}}}, {"adr": true, "confirmed": false, "data": "OgAdcxEDBA8mEBgUASkLhVcAAAAAAAABfOc=", "deduplicationId": "e1301d8e-15cc-4440-a3c7-694fcce99fc9", "devAddr": "07393f7d", "deviceInfo": {"applicationId": "1e5d30da-a51f-4de6-aaf2-0f733a17ddcf", "applicationName": "Esta\u00e7\u00f5es Meteorol\u00f3gicas", "devEui": "f80332010002c894", "deviceName": "Esta\u00e7\u00e3o Aeroporto", "deviceProfileId": "c248c305-cbe7-4a0c-a04f-f4d03f92373a", "deviceProfileName": "Esta\u00e7\u00f5es Metereologicas NIT2xLI", "tags": {}, "tenantId": "8a9c099e-efd2-406d-bb56-d1a399f932ba", "tenantName": "Santa Rosa"}, "dr": 5, "fCnt": 186, "fPort": 4, "id": "f80332010002c894", "object": {"device": [{"n": "model", "u": "string", "v": "NIT21L"}, {"n": "power", "u": "string", "v": "external"}], "drys": [], "inp": {"bytes": [58, 0, 98, 116, 90, 2, 4, 15, 0, 0, 2, 7, 0, 120, 11, 142, 69, 0, 2, 194, 0, 0, 0, 1, 124, 252], "fPort": 4, "recvTime": {}, "variables": {}}, "internal_sensors": [{"n": "temperature", "u": "C", "v": "21.54"}, {"n": "humidity", "u": "%", "v": "78.50"}], "lorawan": [], "modules": [{"n": "emw_rain_lvl", "u": "mm", "v": "974.4"}, {"n": "emw_avg_wind_speed", "u": "km/h", "v": "24"}, {"n": "emw_gust_wind_speed", "u": "km/h", "v": "20"}, {"n": "emw_wind_direction", "u": "graus", "v": "297"}, {"n": "emw_temperature", "u": "C", "v": "21.8"}, {"n": "emw_humidity", "u": "%", "v": "87"}, {"n": "emw_luminosity", "u": "lx", "v": 0}, {"n": "emw_uv", "u": "/", "v": "0.0"}, {"n": "emw_solar_radiation", "u": "W/m\u00b2", "v": "0.0"}, {"n": "emw_atm_pres", "u": "hPa\u00b2", "v": "975.1"}], "probes": []}, "rxInfo": [{"channel": 2, "context": "3NQ2ow==", "crcStatus": "CRC_OK", "gatewayId": "ac1f09fffe06fcd9", "location": {"altitude": 325, "latitude": -27.86885, "longitude": -54.47901}, "metadata": {"region_common_name": "AU915", "region_config_id": "au915_0"}, "rssi": 2, "snr": 5.5, "time": "2023-11-10T00:40:44.459435+00:00", "timeSinceGpsEpoch": "1383612062.459s", "uplinkId": 54886}],
+  "time": "2023-11-10T00:40:44.459+00:00", "txInfo": 
+  {"frequency": 915600000, "modulation": 
+  {"lora": 
+  {"bandwidth": 125000, "codeRate": "CR_4_5", "spreadingFactor": 7}
+  }
+  }
+  }
+  ]
+}
